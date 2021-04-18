@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="pi.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="pi.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Spackle" Version="10.0.0" />
+  </ItemGroup>
+
+</Project>
